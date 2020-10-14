@@ -28,7 +28,7 @@ dependencies {
     compile group: 'org.json', name: 'json', version: '20200518'
 }
 
-mainClassName = 'entrega_introducao.App'
+mainClassName = 'atividade_pratica_01.App'
 
 test {
     useJUnitPlatform()
