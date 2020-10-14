@@ -1,6 +1,6 @@
 # entrega_introducao
 
-* Descrição
+* ### Descrição
   * Este projeto visa o emprego do desenvolvimento dirigido a testes (TDD - Test Driven Development), por meio da implementação 
    de uma calculadora de porcentagem, utilizando a bliblioteca json como biblioteca terceirizada para a manipulação dos dados de saída. 
    
