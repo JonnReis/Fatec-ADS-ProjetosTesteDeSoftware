@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceSets{
+    main{
+        java{
+            srcDirs 'atividade_pratica_01/src/main'
+        }
+    }
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // Use JUnit test framework
+    implementation(localGroovy())
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+
+    // Use json dependency
+    compile group: 'org.json', name: 'json', version: '20200518'
+}
+
+mainClassName = 'entrega_introducao.App'
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
