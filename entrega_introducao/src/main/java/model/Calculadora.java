@@ -9,8 +9,7 @@ public class Calculadora {
         JSONObject percent = new JSONObject(json);
         double valorTotal = percent.getDouble("valorTotal");
         double porcentagem = percent.getDouble("porcentagem");
-        double res = (valorTotal * porcentagem) / 100;
-        return res;
+        return (valorTotal * porcentagem) / 100;
     }
 
     //Método para calcular a porcentagem correspondente de um valor final sobre um valor total
@@ -18,7 +17,6 @@ public class Calculadora {
         JSONObject total = new JSONObject(json);
         double resultado = total.getDouble("resultado");
         double valorTotal = total.getDouble("valorTotal");
-        double result = (resultado * 100) / valorTotal;
-        return result;
+        return (resultado * 100) / valorTotal;
     }
 }
