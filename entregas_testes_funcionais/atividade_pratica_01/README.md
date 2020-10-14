@@ -7,6 +7,6 @@
 
 ### Vídeo no [youtube](https://youtu.be/N8nv_OZe5q0) com os estados de demonstracão:
 
-* [Estado vermelho]()
-* [Estado verde]()
-* [Estado azul]()
+* [Estado vermelho](https://youtu.be/N8nv_OZe5q0?t=247)
+* [Estado verde](https://youtu.be/N8nv_OZe5q0?t=316)
+* [Estado azul](https://youtu.be/N8nv_OZe5q0?t=361)
